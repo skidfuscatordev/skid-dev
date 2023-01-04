@@ -1,0 +1,131 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: radial-gradient(circle at left bottom, rgb(223, 58, 188) 0.00%,rgb(137, 44, 124) 40.00%,rgb(41, 143, 249) 76.00%,rgb(0, 110, 236) 93.00%,rgb(0, 110, 236) 100.00%);
+}
+.home-text {
+  color: rgb(234, 234, 234);
+}
+.home-text01 {
+  font-family: Lora;
+}
+.home-text02 {
+  font-family: Nunito;
+}
+.home-text03 {
+  font-family: Lora;
+}
+.home-text04 {
+  font-family: Lora;
+}
+.home-text06 {
+  color: rgb(222, 222, 222);
+}
+.home-text07 {
+  font-family: Nunito;
+}
+.home-container2 {
+  width: 80%;
+  height: auto;
+  display: flex;
+  max-width: 300px;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-link {
+  width: 100%;
+  cursor: pointer;
+  margin-top: 0px;
+  text-align: center;
+  transition: 0.3s;
+  border-style: hidden;
+  border-width: 0px;
+  border-radius: 100px;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}
+
+.home-text09 {
+  font-family: Nunito;
+}
+.home-button {
+  width: 100%;
+  cursor: not-allowed;
+  margin-top: 0px;
+  text-align: center;
+  transition: 0.3s;
+  border-style: hidden;
+  border-width: 0px;
+  border-radius: 100px;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+
+.home-text10 {
+  border-radius: 100px;
+}
+.home-text11 {
+  font-family: Nunito;
+}
+.home-link1 {
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  align-self: center;
+  text-align: center;
+  transition: 0.3s;
+  border-style: hidden;
+  border-width: 0px;
+  border-radius: 100px;
+  text-decoration: none;
+  background-color: #5865f2;
+}
+
+.home-image {
+  width: auto;
+  height: var(--dl-size-size-xsmall);
+  object-fit: cover;
+}
+.home-text13 {
+  left: 0px;
+  right: 0px;
+  bottom: 8px;
+  margin: auto;
+  position: absolute;
+  font-family: Nunito;
+}
+@media(max-width: 479px) {
+  .home-text {
+    color: rgb(234, 234, 234);
+    text-align: center;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-text01 {
+    font-family: Lora;
+  }
+  .home-text02 {
+    font-family: Nunito;
+  }
+  .home-text03 {
+    font-family: Lora;
+  }
+}
