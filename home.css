@@ -28,9 +28,6 @@
 .home-text03 {
   font-family: Lora;
 }
-.home-text04 {
-  font-family: Lora;
-}
 .home-text06 {
   color: rgb(222, 222, 222);
 }
@@ -95,19 +92,52 @@
   border-style: hidden;
   border-width: 0px;
   border-radius: 100px;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
   text-decoration: none;
-  background-color: #5865f2;
+  background-color: #000000;
 }
 
 .home-image {
   width: auto;
   height: var(--dl-size-size-xsmall);
+  margin-top: 0px;
   object-fit: cover;
+  margin-left: 2.5px;
+  margin-right: 0px;
+  margin-bottom: 2px;
 }
 .home-text13 {
   left: 0px;
   right: 0px;
-  bottom: 8px;
+  bottom: var(--dl-space-space-halfunit);
+  margin: auto;
+  position: absolute;
+  font-family: Nunito;
+}
+.home-link2 {
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  align-self: center;
+  text-align: center;
+  transition: 0.3s;
+  border-style: hidden;
+  border-width: 0px;
+  border-radius: 100px;
+  text-decoration: none;
+  background-color: #5865f2;
+}
+
+.home-image1 {
+  width: auto;
+  height: var(--dl-size-size-xsmall);
+  object-fit: cover;
+}
+.home-text14 {
+  left: 0px;
+  right: 0px;
+  bottom: var(--dl-space-space-halfunit);
   margin: auto;
   position: absolute;
   font-family: Nunito;
@@ -126,6 +156,9 @@
     font-family: Nunito;
   }
   .home-text03 {
+    font-family: Lora;
+  }
+  .home-text04 {
     font-family: Lora;
   }
 }
