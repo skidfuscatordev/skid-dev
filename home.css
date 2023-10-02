@@ -20,13 +20,13 @@
   color: rgb(234, 234, 234);
 }
 .home-text01 {
-  font-family: Lora;
+  font-family: Nunito;
 }
 .home-text02 {
   font-family: Nunito;
 }
 .home-text03 {
-  font-family: Lora;
+  font-family: Nunito;
 }
 .home-text06 {
   color: rgb(222, 222, 222);
@@ -150,15 +150,15 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .home-text01 {
-    font-family: Lora;
+    font-family: Nunito;
   }
   .home-text02 {
     font-family: Nunito;
   }
   .home-text03 {
-    font-family: Lora;
+    font-family: Nunito;
   }
   .home-text04 {
-    font-family: Lora;
+    font-family: Nunito;
   }
 }
